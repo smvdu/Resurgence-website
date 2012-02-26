@@ -14,7 +14,7 @@
 
 <meta charset=utf-8" />
 
-<title>Resurgence 2011 : the cultural and Sports festival | SMVDU.</title>
+<title>Resurgence 2012 : the cultural and Sports festival | SMVDU.</title>
 
 <meta name="robots" content="index,follow" />
 
@@ -86,11 +86,7 @@ else
 
 <script src="./fancybox/jquery.fancybox-1.3.1.js"></script>
 
-<link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.1.css" media="screen" />
-
-
-
-
+<link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.1.css" />
 
 <script src="_js/jcurtains/easing.1.3.js"></script>
 
@@ -146,9 +142,9 @@ else
 
        <a class="a2a_dd transpar" href="http://www.addtoany.com/share_save?linkname=Resurgence%202011%20%3A%20SMVDU&amp;linkurl=http%3A%2F%2Fsmvdu.ac.in%2Fresurgence%2Findex.html"><img src="http://static.addtoany.com/buttons/share_save_256_24.png" width="256" height="24" border="0" alt="Share/Bookmark"/></a>
 
-      <script type="text/javascript">a2a_linkname="Resurgence 2011 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
+      <script>a2a_linkname="Resurgence 2011 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
 
-      <script type="text/javascript" src="http://static.addtoany.com/menu/page.js"></script>
+      <script src="http://static.addtoany.com/menu/page.js"></script>
 
                        <br  />
 
