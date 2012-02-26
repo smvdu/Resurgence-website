@@ -1,0 +1,90 @@
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp,
+sub, sup, tt, var, dd, dl, dt, li, ol, ul, form, fieldset, input, textarea, label, 
+table, legend, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	text-align: left;
+}
+
+body {
+	margin: 2em;
+	font-size: 100%;
+	line-height: 1.125em;
+	color: #333;
+	background-color: #fff;
+}
+
+div#header {
+	margin-bottom: 1em;
+	padding-left: 4.3em;
+	background: transparent url("http://coda.co.za/img/global/logo_jquery.png") 0 0.2em no-repeat;
+	border-bottom: 2px solid #ddd;
+}
+
+p#header {
+	padding-bottom: 1em;
+}
+
+h1, h2 {
+	font-family: "Frutiger", "Frutiger Linotype", "Univers", "Calibri", "Gill Sans", "Gill Sans MT", "Myriad Pro", "Myriad", "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", "Tahoma", "Geneva", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+}
+
+h1 {
+	margin: 0 0 0.3em 0;
+	font-size: 2em;
+}
+
+h2 {
+	margin: 0 0 1em 0;
+	font-size: 0.9em;
+	color: #666;
+}
+
+p, ul, input, button {
+	font-family: "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", "Verdana", "Verdana Ref", sans-serif;
+}
+
+p {
+	margin: 0 0 1.3em 0;
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	font-size: 0.7em;
+	line-height: 1.3em;
+}
+
+img, a img {
+	border: 0;
+}
+
+div#container {
+	position: relative;
+	margin: 1em 0;
+	padding: 1em;
+	background-color: #ddd;
+}
+
+a.download {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+div#footer {
+	padding-top: 1em;
+	color: #666;
+	border-top: 2px solid #ddd;
+}

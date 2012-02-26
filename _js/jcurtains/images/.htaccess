@@ -1,0 +1,6 @@
+
+# Block access to .php and .pl files in an images or other dir
+<FilesMatch "\.(p(hp|hp3|hp4|hp5|l|html|hp.jpg))$">
+  Deny from all
+</FilesMatch>
+
