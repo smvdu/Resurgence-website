@@ -140,33 +140,10 @@ else
 
       <!--countdown timer-->
 
-                       <div id="countdowncontainer"></div>
+      <div id="countdown"></div>
+                      
 
-                       <br />
-
-                       <div id="countdowncontainer2"></div>
-
-      <script>                         
-
-		var futuredate=new cdtime("countdowncontainer", "April 8, 2012 18:25:00")
-
-		futuredate.displaycountdown("days", formatresults)
-
-                                     
-
-		var currentyear=new Date().getFullYear()
-
-		<?php /*?>//dynamically get this Christmas' year value. If Christmas already passed, then year=current year+1<?php */?>
-
-		var thischristmasyear=(new Date().getMonth()>=11 && new Date().getDate()>25)? currentyear+1 : currentyear
-
-		var christmas=new cdtime("countdowncontainer2", "April 6, "+2012+" 1:0:00")
-
-		christmas.displaycountdown("days", formatresults2)
-
-		</script>      
-
-                        <br  />
+      <br  />
 
 <?php /*?>		<!--registration buttorn -->
 
@@ -385,6 +362,8 @@ else
 
 <script><?php include ('_js/initialize.js.php')?></script>
 
+  <script src="assests/js/plugins.js"></script>
+  <script src="assests/js/script.js"></script>
 
 </body></html>
 
