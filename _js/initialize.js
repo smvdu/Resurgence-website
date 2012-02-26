@@ -80,6 +80,13 @@ $(document).ready(function() {
 				'transitionIn'		: 'elastic',
 				'transitionOut'		: 'elastic',
 				'type'				: 'iframe'
+			});	$("#sports_Schedule").fancybox({
+				'width'				: '60%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'type'				: 'iframe'
 			});	
 			
 			$("#contacts").fancybox({
