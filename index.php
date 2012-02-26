@@ -8,37 +8,34 @@
 
 ?>
 
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
 
 <meta charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>Resurgence 2012 : the cultural and Sports festival | SMVDU.</title>
+  <title>Resurgence 2012 : the cultural and Sports festival | SMVDU.</title>
 
-<meta name="robots" content="index,follow" />
+  <meta name="robots" content="index,follow" />
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta name="copyright" content="Saurabh Kumar and contributors (http://github.com/smvdu/resurgence-website)" />
 
-<meta name="copyright" content="Saurabh Kumar (http://saurabhworld.in)" />
+  <meta name="distribution" content="global" />
 
-<meta name="distribution" content="global" />
+  <meta name="author" content="Saurabh Kumar and contributors (http://github.com/smvdu/resurgence-website)" />
 
-<meta name="author" content="Saurabh Kumar, Computer Science and Engineering (2008CSE18), SMVDU / Email: thes.kumar[at]gmail.com;saurabh[at]smvdu.net.in" />
+  <meta name="keywords" content="Resurgence, smvdu, resurgence smvdu, Cultural fest, fest, Jammu, Katra, events, sports festival 2012" />
 
-<meta name="keywords" content="Resurgence, smvdu, resurgence smvdu, Cultural fest, fest, Jammu, Katra, events, sports festival 2011" />
-
-<meta name="description" content="Resurgence 2011, visit the official website of cultural and sports festival 2011, Shri Mata Vaishno Devi University (SMVDU), Katra, J&amp;K" />
+  <meta name="description" content="Resurgence 2012, visit the official website of cultural and sports festival 2012, Shri Mata Vaishno Devi University (SMVDU), Katra, J&amp;K" />
 
 
+  <link rel="stylesheet" href="assests/css/style.css">
+  
+  <link rel="stylesheet" href="_css/styles.css">
 
-<?php /*?>base styles<?php */?>
-
-<link rel="stylesheet" href="_css/layout.css">
-
-<link rel="stylesheet" href="_css/reset.css">
-
-<link rel="stylesheet" href="_css/styles.css">
-
-<link rel="stylesheet" href="_js/jcurtains/curtain.css">
+  <link rel="stylesheet" href="_js/jcurtains/curtain.css">
 
 <?php /*?>IE 6 fixes <?php */?>
 
@@ -52,7 +49,7 @@ img, div { behavior: url(iepngfix.htc) }
 
 
 
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 
 <?php if (strcmp($_SERVER['SERVER_NAME'],"localhost"))
 
@@ -63,13 +60,6 @@ else
 	echo '<script src="_js/jscript-core.js"></script>'
 
 ?>
-
-<?php /*?><script src="_js/queryLoader/queryLoader.js"></script>
-
-<link rel="stylesheet" href="_js/queryLoader/queryLoader.css"/>
-
-<script>QueryLoader.init();</script><?php */?>
-
 
 
 <!-- outside misc codes-->
@@ -385,7 +375,7 @@ else
 
 <br  />
 
-  Website Developed by <a href="http://in.linkedin.com/in/saurabhkumar0">Saurabh Kumar</a></div>
+  Copyright &copy; Resurgence <?php date('Y'); ?></div>
 
 </div>
 
@@ -394,7 +384,6 @@ else
 </div> 
 
 <script><?php include ('_js/initialize.js.php')?></script>
-
 
 
 </body></html>
