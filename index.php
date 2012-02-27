@@ -264,7 +264,7 @@ else
 
   <a id="contacts" 
 
-  style="font-size: 30px;"
+  style="font-size: 24px;"
 
   href="_pages/contacts.html">
 
@@ -311,6 +311,16 @@ else
   href="http://docs.google.com/View?id=dmkq5pn_123g59gvff3">  
 
    Sports Brochure</a>
+
+
+  <a id="sports_Schedule" 
+
+  style="font-size: 30px;" 
+
+  href="https://docs.google.com/spreadsheet/pub?key=0AvXO5wGsqOOedDh3eTlaeGdNNHVURjktVzRxOU9CNVE&single=true&gid=0&output=html">  
+
+   Sports Schedule</a>
+
 
 
 
