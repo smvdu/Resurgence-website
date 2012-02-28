@@ -223,7 +223,7 @@ img, div { behavior: url(iepngfix.htc) }
 
    <a id="schedule"   
 
-     style="font-size: 26px;"
+     style="font-size: 22px;"
 
        href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202010%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
 
@@ -235,7 +235,7 @@ img, div { behavior: url(iepngfix.htc) }
 
   <a id="cultural_events_list"
 
-  style="font-size: 15px;"
+  style="font-size: 26px;"
 
   href="2012/cultural_events_resurgence12.html" >Events</a>
 
@@ -243,7 +243,7 @@ img, div { behavior: url(iepngfix.htc) }
 
   <a id="contacts" 
 
-  style="font-size: 24px;"
+  style="font-size: 18px;"
 
   href="_pages/contacts.html">
 
