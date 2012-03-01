@@ -3,7 +3,7 @@ web1:
   ################################################
   ## GENERAL SETTINGS
   ################################################
-  shared_writable_dirs: [/App_Data]
+  shared_writable_dirs: [App_Data/]
 
   ################################################
   ## WEB SPECIFIC SETTINGS
