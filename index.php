@@ -1,11 +1,11 @@
 <?php  
 
    include 'php/functions.php';
-   include 'php/counter.class.php';
+//   include 'php/counter.class.php';
 
-   $counter = new Counter;
+//   $counter = new Counter;
 
-   $counter->add($counter->getinfo());
+//   $counter->add($counter->getinfo());
 
 ?>
 
@@ -195,7 +195,7 @@ img, div { behavior: url(iepngfix.htc) }
 
     <p align="justify">
 
-    Thanks for being the <?php  $counter->display(); ?><sup>th</sup> visitor. We extend our invitation to be part of this crazy event.<strong> Come and join us.</strong></p>
+    Thanks for being the <?php  //$counter->display(); ?><sup>th</sup> visitor. We extend our invitation to be part of this crazy event.<strong> Come and join us.</strong></p>
 
     
 
