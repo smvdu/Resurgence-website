@@ -39,7 +39,6 @@ publish
 .idea
 _notes
 
-counter.txt
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
