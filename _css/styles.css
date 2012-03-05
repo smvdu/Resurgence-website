@@ -11,8 +11,8 @@ body{
 	overflow: hidden;
 
 }
-/*body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}*/
-body{background:#31221B repeat url(../_img/_layout/bgwood.jpg); color:#FFF}
+body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}
+/*body{background:#31221B repeat url(../_img/_layout/bgwood.jpg); color:#FFF}*/
 
 
 #headerBig{
