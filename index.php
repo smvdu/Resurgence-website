@@ -126,15 +126,15 @@ img, div { behavior: url(iepngfix.htc) }
 
       <br  />
 
-<?php /*?>		<!--registration buttorn -->
+      <?php //registration buttorn ?>              
 
-<?php */?>                                 
-
-	<a id="registrationForm_btn"   style="font-size: 24px;" href="_pages/registrationForm/f/form.php">  
-
-			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2010" border="0"/>
-
-    </a>
+      <?php //disabled till new form is available
+        /*
+         	<a id="registrationForm_btn"   style="font-size: 24px;" href="_pages/registrationForm/f/form.php">  
+        			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2010" border="0"/>
+          </a> 
+        */
+      ?>
 
 
     </div>
