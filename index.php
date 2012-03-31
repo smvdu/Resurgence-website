@@ -126,6 +126,8 @@ img, div { behavior: url(iepngfix.htc) }
 
       <br  />
 
+      <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fresurgence.fest&amp;send=false&amp;layout=box_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:90px;" allowTransparency="true"></iframe>
+
       <?php //registration buttorn ?>              
 
       <?php //disabled till new form is available
