@@ -7,6 +7,8 @@
 
    $counter->add($counter->getinfo());
 
+   $medal_tally_html_url = "https://docs.google.com/spreadsheet/pub?key=0Av5fVD0OZL_bdFFtUW53OUo5dHRmUTdQeXp3aTNCd2c&single=true&gid=0&output=html";
+
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +23,7 @@
 
   <meta name="robots" content="index,follow" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <meta name="copyright" content="Saurabh Kumar and contributors (http://github.com/smvdu/resurgence-website)" />
+  <meta name="copyright" content="Resurgence team at Shri Mata Vaishno Devi University" />
 
   <meta name="distribution" content="global" />
 
@@ -207,7 +209,7 @@ img, div { behavior: url(iepngfix.htc) }
 
 					 <a id="photo" href="javascript:;" title="Photo Stream from Resurgence 2010"><img src="_img/btnPhotoStream.png" alt="Photos" /> </a>
 
-					 <a id="medal_tally" href="_pages/medalTally_resurgence.html" title="Medal's Tally for Resurgence 2011"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /> </a>
+					 <a id="medal_tally" href="<?php echo medal_tally_html_url; ?>" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /></a>
 
                  <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
