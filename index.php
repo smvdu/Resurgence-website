@@ -130,9 +130,9 @@ else
 
       <!--Share link-->
 
-       <a class="a2a_dd transpar" href="http://www.addtoany.com/share_save?linkname=Resurgence%202011%20%3A%20SMVDU&amp;linkurl=http%3A%2F%2Fsmvdu.ac.in%2Fresurgence%2Findex.html"><img src="http://static.addtoany.com/buttons/share_save_256_24.png" width="256" height="24" border="0" alt="Share/Bookmark"/></a>
+       <a class="a2a_dd transpar" href="http://www.addtoany.com/share_save?linkname=Resurgence%202012%20%3A%20SMVDU&amp;linkurl=http%3A%2F%2Fsmvdu.ac.in%2Fresurgence%2Findex.html"><img src="http://static.addtoany.com/buttons/share_save_256_24.png" width="256" height="24" border="0" alt="Share/Bookmark"/></a>
 
-      <script>a2a_linkname="Resurgence 2011 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
+      <script>a2a_linkname="Resurgence 2012 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
 
       <script src="http://static.addtoany.com/menu/page.js"></script>
 
@@ -151,7 +151,7 @@ else
 
 	<a id="registrationForm_btn"   style="font-size: 24px;" href="_pages/registrationForm/f/form.php">  
 
-			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2010" border="0"/>
+			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2012" border="0"/>
 
     </a>
 
@@ -166,7 +166,7 @@ else
 
       <?php /*?>sec 2 [10] top right (the logo)<?php */?>
 
-		<div class="grid_10 header" ><img id="logo" src="_img/_logos/logoResurgence2011-new.png" alt="Resurgence 2011 logo" /></div>
+		<div class="grid_10 header" ><img id="logo" src="_img/_logos/logoResurgence2011-new.png" alt="Resurgence 2012 logo" /></div>
 
 	
 
@@ -226,9 +226,9 @@ else
 
              
 
-					 <a id="photo" href="javascript:;" title="Photo Stream from Resurgence 2010"><img src="_img/btnPhotoStream.png" alt="Photos" /> </a>
+					 <a id="photo" href="javascript:;" title="Photo Stream from Resurgence 2012"><img src="_img/btnPhotoStream.png" alt="Photos" /> </a>
 
-					 <a id="medal_tally" href="_pages/medalTally_resurgence.html" title="Medal's Tally for Resurgence 2011"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /> </a>
+					 <a id="medal_tally" href="_pages/medalTally_resurgence.html" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /> </a>
 
                  <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
@@ -246,7 +246,7 @@ else
 
      style="font-size: 26px;"
 
-       href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202010%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
+       href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202012%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
 
      Schedule</a>
 
