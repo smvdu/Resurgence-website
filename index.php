@@ -1,7 +1,6 @@
 <?php  
 
-   include 'php/functions.php';
-   include 'php/counter.class.php';
+   include("./_lib/counter.php");
 
    $counter = new Counter;
 
@@ -38,6 +37,9 @@
 
   <link rel="stylesheet" href="_js/jcurtains/curtain.css">
 
+<?php /*?>IE 6 fixes <?php */?>
+
+<?php /*?><!-- PNG fix ---><?php */?>
 
 <style>
 
@@ -46,27 +48,43 @@ img, div { behavior: url(iepngfix.htc) }
 </style>
 
 
-<!-- All JavaScript at the bottom, except this Modernizr build.
-     Modernizr enables HTML5 elements & feature detects for optimal performance. -->
-       
-<script src="assests/js/libs/modernizr-2.5.3.min.js"></script>
 
 
-<?php 
-  //include jquery
-  if (is_localhost()) {
-    
-    echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>';
-  
-  } else {
-    
-    echo '<script src="assests/js/libs/jquery-1.7.1.js"></script>';
-  }
 
+<?php if (strcmp($_SERVER['SERVER_NAME'],"localhost"))
 
+	echo '<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>';
+
+else 
+
+	echo '<script src="_js/jscript-core.js"></script>'
 
 ?>
 
+
+<!-- outside misc codes-->
+
+<script src="_js/disable.js"></script>
+
+<script src="_js/countdowntimer.js"></script>
+
+
+
+<!--	fancy box -->
+
+<script src="./fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+
+<script src="./fancybox/jquery.fancybox-1.3.1.js"></script>
+
+<link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.1.css" />
+
+<script src="_js/jcurtains/easing.1.3.js"></script>
+
+
+
+<?php /*?><!-- twitter init --><?php */?>
+
+<script src="_js/jquery.twitter/jquery.twitter.js"></script>
 
 <link rel="stylesheet" href="_js/jquery.twitter/jquery.twitter.css">
 
@@ -90,7 +108,7 @@ img, div { behavior: url(iepngfix.htc) }
 
       </div>
 
-      <a class="rope" href="#" title=" Welcome to Resurgence, click to enter!!"><img src="_js/jcurtains/images/rope.png" alt="Click to open"/></a>
+      <a class="rope" href="#"><img src="_js/jcurtains/images/rope.png" /></a>
 
 
 
@@ -112,10 +130,13 @@ img, div { behavior: url(iepngfix.htc) }
 
       <!--Share link-->
 
-      <a class="a2a_dd transpar" href="http://www.addtoany.com/share_save?linkname=Resurgence%202012%20%3A%20SMVDU&amp;linkurl=http%3A%2F%2Fresurgence.smvdu.net.in"><img src="http://static.addtoany.com/buttons/share_save_256_24.png" width="256" height="24" border="0" alt="Share/Bookmark"/></a>
+       <a class="a2a_dd transpar" href="http://www.addtoany.com/share_save?linkname=Resurgence%202011%20%3A%20SMVDU&amp;linkurl=http%3A%2F%2Fsmvdu.ac.in%2Fresurgence%2Findex.html"><img src="http://static.addtoany.com/buttons/share_save_256_24.png" width="256" height="24" border="0" alt="Share/Bookmark"/></a>
 
-     
-      <br  />
+      <script>a2a_linkname="Resurgence 2011 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
+
+      <script src="http://static.addtoany.com/menu/page.js"></script>
+
+                       <br  />
 
       <!--countdown timer-->
 
@@ -145,7 +166,7 @@ img, div { behavior: url(iepngfix.htc) }
 
       <?php /*?>sec 2 [10] top right (the logo)<?php */?>
 
-		<div class="grid_10 header" ><img id="logo" src="_img/_logos/logoResurgence2011.png" alt="Resurgence 2011 logo" /></div>
+		<div class="grid_10 header" ><img id="logo" src="_img/_logos/logoResurgence2011-new.png" alt="Resurgence 2011 logo" /></div>
 
 	
 
@@ -223,7 +244,7 @@ img, div { behavior: url(iepngfix.htc) }
 
    <a id="schedule"   
 
-     style="font-size: 22px;"
+     style="font-size: 26px;"
 
        href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202010%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
 
@@ -235,15 +256,15 @@ img, div { behavior: url(iepngfix.htc) }
 
   <a id="cultural_events_list"
 
-  style="font-size: 26px;"
+  style="font-size: 15px;"
 
-  href="2012/cultural_events_resurgence12.html" >Events</a>
+  href="_pages/cultural_events_resugence10.html" >Events</a>
 
   
 
   <a id="contacts" 
 
-  style="font-size: 18px;"
+  style="font-size: 30px;"
 
   href="_pages/contacts.html">
 
@@ -292,16 +313,6 @@ img, div { behavior: url(iepngfix.htc) }
    Sports Brochure</a>
 
 
-  <a id="sports_Schedule" 
-
-  style="font-size: 30px;" 
-
-  href="https://docs.google.com/spreadsheet/pub?key=0AvXO5wGsqOOedDh3eTlaeGdNNHVURjktVzRxOU9CNVE&single=true&gid=0&output=html">  
-
-   Sports Schedule</a>
-
-
-
 
    </div> 
 
@@ -314,6 +325,8 @@ img, div { behavior: url(iepngfix.htc) }
 <?php /*?> <div align="center" class="notification" style=" margin-top:10px; color: #000000; background:#00FF00; border:#000000 medium; font-size:large;">
 
     Resurgence 2011 is on it's way... get ready...</div> <?php */?>
+
+    
 
     
 
@@ -352,23 +365,5 @@ img, div { behavior: url(iepngfix.htc) }
   <script src="assests/js/plugins.js"></script>
   <script src="assests/js/script.js"></script>
 
-  <php /* share button scripts */ ?>
-  <script>a2a_linkname="Resurgence 2012 : SMVDU";a2a_linkurl="http://resurgence.smvdu.net.in/";</script>
-  <script>document.write('<script src="http://static.addtoany.com/menu/page.js"><\/script>');</script>
-  
-
-  <!-- outside misc codes-->
-  <script src="_js/disable.js"></script>
-
-  <!--  fancy box -->
-  <script src="./fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
-  <script src="./fancybox/jquery.fancybox-1.3.1.js"></script>
-  <link rel="stylesheet" href="./fancybox/jquery.fancybox-1.3.1.css" />
-
-  <script src="_js/jcurtains/easing.1.3.js"></script>
-  
-  <?php /*?><!-- twitter init --><?php */?>
-  <script src="_js/jquery.twitter/jquery.twitter.js"></script>
- 
-
 </body></html>
+
