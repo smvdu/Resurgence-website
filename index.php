@@ -198,11 +198,11 @@ else
 
            <?php /*?><!--twitter updates--><?php */?>
 
-           <div id="twitter"><p><a href="http://twitter.com/resurgenceSMVDU">Click for updates...</a></p></div>
+           <div id="twitter"><p><a href="http://facebook.com/resurgenceSMVDU">Click for updates...</a></p></div>
 
 		 
 
-				<a href="http://twitter.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
+				<a href="http://facebook.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
 
            <br />
 
@@ -218,7 +218,7 @@ else
 
             <?php /*?><!--contain middle paragraph--><?php */?>
 
-            <h1 id="headerBig">Welcome to Resurgence</h1>
+            <h1 id="headerBig">Welcome to Resurgence 2012</h1>
 
                 <p align="justify"> Resurgence, cultural and sports festival of Shri Mata Vaishno Devi University (SMVDU), Katra, J&amp;K, is one of the most popular fest in the northern India. Students of various institutes gather for competing with one another in various cultural, sports and informal events.
 
@@ -245,8 +245,6 @@ else
 					 <a id="medal_tally" href="_pages/medalTally_resurgence.html" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /> </a>
 
            <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
-
-           <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
 
            <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
 
