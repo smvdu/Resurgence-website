@@ -1,48 +1,96 @@
-/*body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}*/
-body{
-	background:#000 repeat url(../_img/_layout/bgwood.jpg); 
-	color:#FFF; 
-	cursor: url(../_img/_layout/3dgarro.cur), default;	
-	overflow: hidden;
-}
-
-#headerBig{
-	text-align:right;
-}
-h1{
-	font-size:25px;
-}
-p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset{
-	margin-bottom: 20px;
-}
-#logoHeader{  overflow:visible; height:260px}
-
-#share_link{padding-top:70px}
-
-body{font:13px/1.231 arial,helvetica,clean,sans-serif; *font-size:small; *font:x-small}
-select, input, button, textarea, button{font:99% arial,helvetica,clean,sans-serif}
-table{font-size:inherit; font:100%}
-pre, code, kbd, samp, tt{font-family:monospace; *font-size:108%; line-height:100%}
-
-.lcdstyle{font:bold 18px MS Sans Serif; padding:3px}
-.lcdstyle sup{font-size:80%}
-
-#bar{
-	position:absolute; 
-	bottom:0px; 
-	text-decoration:none
-}
-
-.transpar40{filter:alpha(opacity=40);  opacity:0.4}
-.transpar{filter:alpha(opacity=60);  opacity:0.6}
-
-.tagCloud{font-family:Arial,Helvetica,sans-serif; font-size:medium; font-weight:bolder; text-transform:uppercase; color:#FFF}
-
-a{color:#FFF; text-decoration:none;cursor: url(../_img/_layout/3dgarro.cur), default;}
-a:hover{text-decoration:underline}
-.tagcloud a{  font-family:Arial,Helvetica,sans-serif; font-weight:600; text-decoration:none; font-size:36px}
-
-#logo{
-	padding-top: 60px;
-	padding-bottom: 50px;
+/*body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}*/
+
+body{
+
+	background:#000 repeat url(../_img/_layout/depositphotos_2310795-Grunge-background-with-old-torn-posters.jpg); 
+
+	color:#000; 
+
+	cursor: url(../_img/_layout/3dgarro.cur), default;	
+
+	overflow: hidden
+
+}
+
+
+
+#headerBig{
+
+	text-align:right;
+
+}
+
+h1{
+
+	font-size:25px;
+
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset{
+
+	margin-bottom: 20px;
+	font-color:blue;
+
+}
+
+#logoHeader{  overflow:visible; height:260px}
+
+
+
+#share_link{padding-top:70px}
+
+
+
+body{font:13px/1.231 arial,helvetica,clean,sans-serif; *font-size:small; *font:x-small}
+
+select, input, button, textarea, button{font:99% arial,helvetica,clean,sans-serif}
+
+table{font-size:inherit; font:100%}
+
+pre, code, kbd, samp, tt{font-family:monospace; *font-size:108%; line-height:100%}
+
+
+
+.lcdstyle{font:bold 18px MS Sans Serif; padding:3px}
+
+.lcdstyle sup{font-size:80%}
+
+
+
+#bar{
+
+	position:absolute; 
+
+	bottom:0px; 
+
+	text-decoration:none
+
+}
+
+
+
+.transpar40{filter:alpha(opacity=40);  opacity:0.4}
+
+.transpar{filter:alpha(opacity=60);  opacity:3.0}
+
+
+
+.tagCloud{font-family:Arial,Helvetica,sans-serif; font-size:medium; font-weight:bolder; text-transform:uppercase; color:#FFF}
+
+
+
+a{color:#9f3708; text-decoration:none;cursor: url(../_img/_layout/3dgarro.cur), default;}
+
+a:hover{color:#652a0f;text-decoration:underline}
+
+.tagcloud a{  font-family:Arial,Helvetica,sans-serif; font-weight:600; text-decoration:none; font-size:36px}
+
+
+
+#logo{
+
+	padding-top: 60px;
+
+	padding-bottom: 50px;
+
 }
