@@ -24,7 +24,7 @@
 class Counter {
  
 	//Name of the data file where we store all info
-	private $datafile = "counter.txt";
+	private $datafile = "App_Data/counter.txt";
 	private $delimiter = "---";
 	public $styles = "";
  
