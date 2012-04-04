@@ -356,9 +356,7 @@ else
 
 <?php /*?><!--			footer datas  --><?php */?>
 
-<br  />
-
- <b> Web Development Team:</b>Saurab Kumar, Rishabh Shukla, Akshay Pratap Singh and Rajeshwar<br /> 
+ <b> Web Development Team:</b>Saurabh Kumar, Rishabh Shukla, Akshay Pratap Singh and Rajeshwar<br /> 
   Copyright &copy; Resurgence 2012 <?php date('Y'); ?></div>
 
 </div>
