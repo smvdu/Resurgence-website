@@ -1,18 +1,17 @@
-
+/*body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}*/
 
 body{
 
-	background:#000 repeat url(../_img/_layout/bgwood.jpg); 
+	background:#000 repeat url(../_img/_layout/depositphotos_2310795-Grunge-background-with-old-torn-posters.jpg); 
 
-	color:#FFF; 
+	color:#000; 
 
 	cursor: url(../_img/_layout/3dgarro.cur), default;	
 
-	overflow: hidden;
+	overflow: hidden
 
 }
-body{background:#000 repeat-x url(../_img/_layout/bgcurtain.jpg); color:#FFF}
-/*body{background:#31221B repeat url(../_img/_layout/bgwood.jpg); color:#FFF}*/
+
 
 
 #headerBig{
@@ -30,6 +29,7 @@ h1{
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset{
 
 	margin-bottom: 20px;
+	font-color:blue;
 
 }
 
@@ -71,7 +71,7 @@ pre, code, kbd, samp, tt{font-family:monospace; *font-size:108%; line-height:100
 
 .transpar40{filter:alpha(opacity=40);  opacity:0.4}
 
-.transpar{filter:alpha(opacity=60);  opacity:0.6}
+.transpar{filter:alpha(opacity=60);  opacity:3.0}
 
 
 
@@ -79,9 +79,9 @@ pre, code, kbd, samp, tt{font-family:monospace; *font-size:108%; line-height:100
 
 
 
-a{color:#FFF; text-decoration:none;cursor: url(../_img/_layout/3dgarro.cur), default;}
+a{color:#9f3708; text-decoration:none;cursor: url(../_img/_layout/3dgarro.cur), default;}
 
-a:hover{text-decoration:underline}
+a:hover{color:#652a0f;text-decoration:underline}
 
 .tagcloud a{  font-family:Arial,Helvetica,sans-serif; font-weight:600; text-decoration:none; font-size:36px}
 
