@@ -94,6 +94,24 @@ else
 
 </body>
 
+         <div id="fb-root"></div>
+             <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+
+
+          <script type="text/javascript">
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                 po.src = 'https://apis.google.com/js/plusone.js';
+                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+         </script>
+
       <?php /*?><!--curtain datas --><?php */?>
 
       <div class="leftcurtain">
@@ -145,17 +163,13 @@ else
 
       <br  />
 
-<?php /*?>		<!--registration buttorn -->
+<?php /*?>		<!-fb -like & google -like-->
 
-<?php */?>                                 
-
-	<a id="registrationForm_btn"   style="font-size: 24px;" href="_pages/registrationForm/f/form.php">  
-
-			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2012" border="0"/>
-
-    </a>
-
-
+<?php */?>
+        
+       <div class="fb-like" data-href="http://www.resurgence.smvdu.net.in" data-send="true" data-width="450" data-show-faces="true"></div>                              
+        <g:plusone></g:plusone>
+	
     </div>
 
                      
@@ -230,7 +244,7 @@ else
 
 					 <a id="medal_tally" href="_pages/medalTally_resurgence.html" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /> </a>
 
-                 <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
+           <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
            <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
 
@@ -283,16 +297,6 @@ else
   href="http://local.google.co.in/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;ll=32.936369,74.969501&amp;spn=0.095951,0.181446&amp;t=h&amp;msid=113862330647469523415.0004832d74ff1e9d41841&amp;output=embed">  
 
    Map</a> 
-
-
-
-  <a id="registrationForm" 
-
-  style="font-size: 20px;" 
-
-  href="_pages/registrationForm/f/form.php">  
-
-   Register</a>      
 
 <br/>
 
@@ -348,13 +352,14 @@ else
 
   <div class="clear"></div>
 
-  <div class="grid_16" id="footer" style="color:#999999">
+  <div class="grid_16" id="footer" style="color:#000">
 
 <?php /*?><!--			footer datas  --><?php */?>
 
 <br  />
 
-  Copyright &copy; Resurgence <?php date('Y'); ?></div>
+ <b> Web Development Team:</b>Saurab Kumar, Rishabh Shukla, Akshay Pratap Singh and Rajeshwar<br /> 
+  Copyright &copy; Resurgence 2012 <?php date('Y'); ?></div>
 
 </div>
 
