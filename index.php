@@ -198,14 +198,13 @@ else
 
            <?php /*?><!--twitter updates--><?php */?>
 
-           <div id="twitter"><p><a href="http://facebook.com/resurgenceSMVDU">Click for updates...</a></p></div>
+           <div id="twitter"><p><a href="http://twitter.com/resurgenceSMVDU">Click for updates...</a></p></div>
 
 		 
 
-				<a href="http://facebook.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
+				<a href="http://twitter.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
 
            <br />
-
 
 
 	   </div>      
@@ -246,8 +245,7 @@ else
 
            <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
-           <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
-
+           
 
 
     <hr style="width:30%; margin-top: 20px;"  align="center" />

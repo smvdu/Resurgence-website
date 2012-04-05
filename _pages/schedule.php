@@ -15,8 +15,8 @@
 
 <body>
 <p align="center" style="font-size:36px; color: #FF0000; font-weight:900">
-	Schedule will be available very soon. Sorry for the inconvience.
+	<iframe src="https://docs.google.com/document/pub?id=1r1RrPZr5frJibBBxmCLMw66iiLps10vGiNewdkU3sb0&amp;embedded=true"></iframe>
 </p>
-<!--<iframe src="https://www.google.com/calendar/embed?title=Schedule%20Resurgence%202010&amp;mode=MONTH&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=b4vhhdtmch5i7su5dbe22bd6qc%40group.calendar.google.com&amp;color=%23A32929&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;src=en.indian%23holiday%40group.v.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FCalcutta" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+
 </body>
 </html>
