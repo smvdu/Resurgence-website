@@ -102,7 +102,7 @@ $(document).ready(function() {
 
 				userName: "resurgenceSMVDU",
 
-				numTweets: 5,
+				numTweets: 3,
 
 				loaderText: "Loading updates...",
 
