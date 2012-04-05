@@ -11,9 +11,6 @@ http://resurgence.smvdu.net.in
 $(document).ready(function() {
 
 
-
-			
-
 			 var content = $('#content');
 
 			 content.css({opacity: 0, marginTop: '300px'});
@@ -126,24 +123,14 @@ $(document).ready(function() {
 
 			//pop-ups fancy box
 
-			//$.fancybox.showActivity
-
-			
-
 			$("#schedule").fancybox({
 
 				'width'				: '75%',
-
 				'height'			: '75%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});
 
 
@@ -151,17 +138,11 @@ $(document).ready(function() {
 			$("#cultural_events_list").fancybox({
 
 				'width'				: '60%',
-
 				'height'			: '75%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});	
 
 			
@@ -169,17 +150,11 @@ $(document).ready(function() {
 			$("#contacts").fancybox({
 
 				'width'				: '60%',
-
 				'height'			: '75%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});	
 
 
@@ -187,33 +162,21 @@ $(document).ready(function() {
 			$("#map").fancybox({
 
 				'width'				: '60%',
-
 				'height'			: '75%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});
 
 			$("#registrationForm").fancybox({
 
 				'width'				: '60%',
-
 				'height'			: '90%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});
 
 			
@@ -221,17 +184,11 @@ $(document).ready(function() {
 			$("#medal_tally").fancybox({
 
 				'width'				: '80%',
-
 				'height'			: '90%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});
 
 
@@ -239,17 +196,11 @@ $(document).ready(function() {
 			$("#videos").fancybox({
 
 				'autodimensions'	: true,
-
 				'width'				: 740,
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});
 
 
@@ -257,64 +208,72 @@ $(document).ready(function() {
 			$("#registrationForm_btn").fancybox({
 
 				'width'				: '60%',
-
 				'height'			: '90%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});			
 
    
 
 			$("#sports_brochure").fancybox({
-
 				'width'				: '70%',
-
 				'height'			: '70%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});	
+
 
 			$("#rulebook_cultural").fancybox({
 
 				'width'				: '70%',
-
 				'height'			: '70%',
-
 				'autoScale'			: false,
-
 				'transitionIn'		: 'elastic',
-
 				'transitionOut'		: 'elastic',
-
 				'type'				: 'iframe'
-
 			});	
+
+		
+
+		
+		$("#attractions").click(function() {		
+
+			$.fancybox([	
+				'_img/fancybox/poster-guest-info-resurgence-A3 - final.jpg',
+				'_img/fancybox/poster-inaugral-resurgence-A3 -final.jpg'
+			], {
+
+				'padding'			: 3,
+				'centerOnScroll'	: true,
+				'transitionIn'		: 'elastic',
+				'transitionOut'		: 'elastic',
+				'type'              : 'image',
+				'changeFade'        : 5,
+				'titlePosition' 	: 'over',
+				'onComplete'	:	function() {
+
+					$("#fancybox-wrap").hover(function() {
+							$("#fancybox-title").show();
+						}, function() {
+							$("#fancybox-title").hide();
+							}
+						);
+					}
+				}
+			);
+		});
 
 		//photo Gallery			
 
-		$("#photo").click(function() {
+		$("#photo").click(function() {		
 
 		$.fancybox([
 
-				'_img/fancybox/poster-guest-info-resurgence-A3 - final.jpg',
-				'_img/fancybox/poster-inaugral-resurgence-A3 -final.jpg',
-			 'http://sphotos.ak.fbcdn.net/hphotos-ak-ash1/hs424.ash1/23475_383420742740_374421127740_4291268_4580507_n.jpg',			
-
-			'http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs384.snc3/23475_383420757740_374421127740_4291271_3442371_n.jpg',
+			'http://sphotos.ak.fbcdn.net/hphotos-ak-ash1/hs424.ash1/23475_383420742740_374421127740_4291268_4580507_n.jpg',	
 
 			'http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs384.snc3/23475_383420762740_374421127740_4291272_8092622_n.jpg',
 
@@ -366,7 +325,7 @@ $(document).ready(function() {
 
 			'http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs384.snc3/23475_383041927740_374421127740_4284867_2916212_n.jpg',
 
-						{  'href'	: 'http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs364.snc3/23475_383420737740_374421127740_4291267_8046578_n.jpg',
+			{'href'	: 'http://sphotos.ak.fbcdn.net/hphotos-ak-snc3/hs364.snc3/23475_383420737740_374421127740_4291267_8046578_n.jpg',
 
 				'title'	: '....thnk u :)'}
 
@@ -402,7 +361,7 @@ $(document).ready(function() {
 
 		});
 
-});
+	});
 
 });
 
