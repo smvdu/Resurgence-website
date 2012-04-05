@@ -355,8 +355,9 @@ else
 
 <?php /*?><!--			footer datas  --><?php */?>
 
- <b> Web Development Team:</b>Saurabh Kumar, Rishabh Shukla, Akshay Pratap Singh and Rajeshwar<br /> 
-  Copyright &copy; Resurgence 2012 <?php date('Y'); ?></div>
+ <b> Web Development Team: </b><a href="https://twitter.com/intent/user?screen_name=saurabh_world">Saurabh Kumar</a>, <a href="https://www.facebook.com/profile.php?id=100000055563483">Rishabh Shukla</a>, <br>
+ Akshay and Rajeshwar<br /> 
+  Copyright &copy; Resurgence 2012 <?php date('Y'); ?> | <a href="http://smvdu.net.in">SMVD University</a></div>
 
 </div>
 
