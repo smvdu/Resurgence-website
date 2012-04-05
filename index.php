@@ -199,14 +199,13 @@ else
 
            <?php /*?><!--twitter updates--><?php */?>
 
-           <div id="twitter"><p><a href="http://facebook.com/resurgenceSMVDU">Click for updates...</a></p></div>
+           <div id="twitter"><p><a href="http://twitter.com/resurgenceSMVDU">Click for updates...</a></p></div>
 
 		 
 
-				<a href="http://facebook.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
+				<a href="http://twitter.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
 
            <br />
-
 
 
 	   </div>      
@@ -247,9 +246,8 @@ else
 
            <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
+
            <a id="attractions" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
-
-
 
     <hr style="width:30%; margin-top: 20px;"  align="center" />
 
@@ -263,7 +261,7 @@ else
 
      style="font-size: 26px;"
 
-       href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202012%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
+       href="https://docs.google.com/document/pub?id=1r1RrPZr5frJibBBxmCLMw66iiLps10vGiNewdkU3sb0" >  
 
      Schedule</a>
 
