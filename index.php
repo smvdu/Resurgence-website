@@ -168,7 +168,7 @@ else
 		<?php //fb -like & google -like buttons ?>
       
 
-       <div class="fb-like" data-layout="button_count" data-href="http://www.resurgence.smvdu.net.in" data-send="false" data-width="" data-show-faces="false" data-send="true"></div>                              
+       <div class="fb-like" data-layout="button_count" data-href="http://facebook.com/resurgence.fest" data-send="false" data-width="" data-show-faces="false" data-send="true"></div>                              
        <g:plusone></g:plusone>
 	
     </div>
