@@ -241,13 +241,13 @@ else
 
              
 
-					 <a id="photo" href="javascript:;" title="Photo Stream from Resurgence 2012"><img src="_img/btnPhotoStream.png" alt="Photos" /> </a>
+					 <a id="photo" title="Photo Stream from Resurgence 2012"><img src="_img/btnPhotoStream.png" alt="Photos" /> </a>
 
 					 <a id="medal_tally" href="<?php echo $medal_tally_html_url; ?>" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /></a>
 
            <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
-           <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
+           <a id="attractions" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
 
 
 
