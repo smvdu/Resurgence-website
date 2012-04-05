@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 
 			 var content = $('#content');
-
+			 
 			 content.css({opacity: 0, marginTop: '300px'});
 
 			 $load=true;
@@ -332,31 +332,18 @@ $(document).ready(function() {
 		], {
 
 			'padding'			: 3,
-
 			'centerOnScroll'	: true,
-
 			'transitionIn'		: 'elastic',
-
 			'transitionOut'		: 'elastic',
-
 			'type'              : 'image',
-
 			'changeFade'        : 5,
-
 			'titlePosition' 	: 'over',
-
 			'onComplete'	:	function() {
-
 				$("#fancybox-wrap").hover(function() {
-
 					$("#fancybox-title").show();
-
 				}, function() {
-
 					$("#fancybox-title").hide();
-
 				});
-
 			}
 
 		});
@@ -367,18 +354,11 @@ $(document).ready(function() {
 
 
 
-
-
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 
-
-
 try {
-
-var pageTracker = _gat._getTracker("UA-16351077-3");
-
-pageTracker._trackPageview();
-
+	var pageTracker = _gat._getTracker("UA-16351077-3");
+	pageTracker._trackPageview();
 } catch(err) {}
