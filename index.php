@@ -261,7 +261,7 @@ else
 
      style="font-size: 26px;"
 
-       href="http://www.google.com/calendar/embed?title=Schedule%20%3A%20Resurgence%202012%20&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=d02nt5iabhqebfhh7af1igqr5g%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FCalcutta" >  
+       href="https://docs.google.com/document/pub?id=1r1RrPZr5frJibBBxmCLMw66iiLps10vGiNewdkU3sb0" >  
 
      Schedule</a>
 
