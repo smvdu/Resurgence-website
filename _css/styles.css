@@ -4,6 +4,7 @@ body{
 
 	background:#000 repeat url(../_img/_layout/depositphotos_2310795-Grunge-background-with-old-torn-posters.jpg); 
 
+
 	color:#000; 
 
 	cursor: url(../_img/_layout/3dgarro.cur), default;	
@@ -93,4 +94,11 @@ a:hover{color:#652a0f;text-decoration:underline}
 
 	padding-bottom: 50px;
 
+<<<<<<< HEAD
+}
+#button{
+	margin-top: 100px;
+	margin-left:50px;
+=======
+>>>>>>> 58ec63157de7fc87e421b2970806333f1e09e085
 }

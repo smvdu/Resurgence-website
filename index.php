@@ -95,6 +95,24 @@ else
 </head><body>
 
 </body>
+         
+         <div id="fb-root"></div>
+             <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+
+
+          <script>
+              (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                 po.src = 'https://apis.google.com/js/plusone.js';
+                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+              })();
+         </script>
 
       <?php /*?><!--curtain datas --><?php */?>
 
@@ -146,22 +164,13 @@ else
                       
 
       <br  />
-      <div align="center">
-        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fresurgence.fest&amp;send=false&amp;layout=button_count&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:90px;" allowTransparency="true"></iframe>
-      </div>
 
+		<?php //fb -like & google -like buttons ?>
+      
 
-      <?php //registration buttorn ?>              
-
-      <?php //disabled till new form is available
-        /*
-         	<a id="registrationForm_btn"   style="font-size: 24px;" href="_pages/registrationForm/f/form.php">  
-        			<img src="_img/btnRegister.png" alt="Registration Form : Resurgence 2010" border="0"/>
-          </a> 
-        */
-      ?>
-
-
+       <div class="fb-like" data-layout="button_count" data-href="http://www.resurgence.smvdu.net.in" data-send="false" data-width="" data-show-faces="false" data-send="true"></div>                              
+       <g:plusone></g:plusone>
+	
     </div>
 
                      
@@ -190,11 +199,11 @@ else
 
            <?php /*?><!--twitter updates--><?php */?>
 
-           <div id="twitter"><p><a href="http://twitter.com/resurgenceSMVDU">Click for updates...</a></p></div>
+           <div id="twitter"><p><a href="http://facebook.com/resurgenceSMVDU">Click for updates...</a></p></div>
 
 		 
 
-				<a href="http://twitter.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
+				<a href="http://facebook.com/resurgenceSMVDU" target="_blank">Show all updates...</a>
 
            <br />
 
@@ -210,7 +219,7 @@ else
 
             <?php /*?><!--contain middle paragraph--><?php */?>
 
-            <h1 id="headerBig">Welcome to Resurgence</h1>
+            <h1 id="headerBig">Welcome to Resurgence 2012</h1>
 
                 <p align="justify"> Resurgence, cultural and sports festival of Shri Mata Vaishno Devi University (SMVDU), Katra, J&amp;K, is one of the most popular fest in the northern India. Students of various institutes gather for competing with one another in various cultural, sports and informal events.
 
@@ -236,7 +245,7 @@ else
 
 					 <a id="medal_tally" href="<?php echo $medal_tally_html_url; ?>" title="Medal's Tally for Resurgence 2012"><img src="_img/btnMedalstally.png" alt="Medal's Tally" /></a>
 
-                 <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
+           <a id="videos" href="_pages/videos.html" title="Videos | Resurgence"><img src="_img/btnvideo.png" alt="Veiw Videos" /> </a>
 
            <a id="photo" href="javascript:;" title="Inaugrual attraction for Resurgence 2012"><img src="_img/inaugral.png" alt="Photos" /> </a>
 
@@ -266,7 +275,7 @@ else
 
   style="font-size: 15px;"
 
-  href="_pages/cultural_events_resugence10.html" >Events</a>
+  href="_pages/cultural_events_resugence12.html" >Events</a>
 
   
 
@@ -289,16 +298,6 @@ else
   href="http://local.google.co.in/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;ll=32.936369,74.969501&amp;spn=0.095951,0.181446&amp;t=h&amp;msid=113862330647469523415.0004832d74ff1e9d41841&amp;output=embed">  
 
    Map</a> 
-
-
-
-  <a id="registrationForm" 
-
-  style="font-size: 20px;" 
-
-  href="_pages/registrationForm/f/form.php">  
-
-   Register</a>      
 
 <br/>
 
@@ -354,13 +353,12 @@ else
 
   <div class="clear"></div>
 
-  <div class="grid_16" id="footer" style="color:#999999">
+  <div class="grid_16" id="footer" style="color:#000">
 
 <?php /*?><!--			footer datas  --><?php */?>
 
-<br  />
-
-  Copyright &copy; Resurgence <?php date('Y'); ?></div>
+ <b> Web Development Team:</b>Saurabh Kumar, Rishabh Shukla, Akshay Pratap Singh and Rajeshwar<br /> 
+  Copyright &copy; Resurgence 2012 <?php date('Y'); ?></div>
 
 </div>
 

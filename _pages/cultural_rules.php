@@ -16,7 +16,7 @@
 <div align="center">
 <table width="80%" height="100%" border="0" cellpadding="10" cellspacing="5px;">
   <tr height="100px;">
-    <td colspan="3" valign="bottom"><h1>Rule Book : Resurgence 2011</h1>
+    <td colspan="3" valign="bottom"><h1>Rule Book : Resurgence 2012</h1>
     	<h3>Cultural Events</h3>
     </td>
     </tr>
@@ -26,8 +26,8 @@
     <td>&nbsp;</td>
   </tr>
   <tr align="center" style="color:#FFFFFF; font-weight:500; font-stretch:extra-expanded;">
-    <td style="background-color:#FF0000;"><a href="https://docs.google.com/document/pub?id=1jtIkbO2J3fm9hnIGDhP_KDTAgZeYIowcSERISbZ_zew" style="color:#FFFFFF;">Inter-university</a></td>
-    <td style="background-color:#006633;"><a href="https://docs.google.com/document/pub?id=1XDlWb1BhYkzcAkU9YQ194r7iw1qLVDA_zjN-ZoNDpds" style="color:#FFFFFF;">Intra-university</a></td>
+    <td style="background-color:#FF0000;"><a href="https://docs.google.com/document/d/1r1RrPZr5frJibBBxmCLMw66iiLps10vGiNewdkU3sb0" style="color:#FFFFFF;">Inter-university</a></td>
+    <!--<td style="background-color:#006633;"><a href="https://docs.google.com/document/pub?id=1XDlWb1BhYkzcAkU9YQ194r7iw1qLVDA_zjN-ZoNDpds" style="color:#FFFFFF;">Intra-university</a></td>-->
     <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>

@@ -14,7 +14,7 @@
 
 		$.fn.getTwitter.defaults = {
 			userName: null,
-			numTweets: 5,
+			numTweets: 3,
 			loaderText: "Loading tweets...",
 			slideIn: true,
 			slideDuration: 750,
