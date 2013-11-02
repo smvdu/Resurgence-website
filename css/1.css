@@ -1,0 +1,283 @@
+@font-face {
+    font-family: "Bauhaus Std";
+    src: url('../fonts/BauhausStd-Medium.otf');
+}
+
+.textblock .resurgence2k13{
+	font-family: "Bauhaus Std";
+}
+
+
+
+.labels {
+    left: 10%;
+    top: 60%;
+    position: absolute;
+    font-size: 150%;
+    color: #fff;
+    width: 20%;
+}
+
+.labels div{
+    height: 70px;
+    width: 100%;
+    padding: 6px 0px 0px 0px;
+}
+
+#container {
+	position: relative;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+
+.details {
+    width: 50%;
+    left: 27%;
+    position: relative;
+    top: 16%;
+}
+
+.details .field_block{
+
+   margin: auto;
+   top: 100px;
+   left: 10px;
+   width: 75%;
+   background-color: rgba(0 , 0 , 0 , 0);
+   -webkit-perspective: 600px; /* larger the value, the less pronounced the 3D effect */
+    -moz-perspective: 600px;
+    -o-perspective: 600px;
+    -ms-perspective: 600px;
+    perspective: 600px;
+   
+}
+
+
+.details input {
+    -webkit-transform: rotateX(45deg);
+    -moz-transform: rotateX(45deg);
+    -o-transform: rotateX(45deg);
+    -ms-transform: rotateX(45deg);
+    transform: rotateX(45deg);
+
+}
+
+.details input:focus{
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    -o-transform: rotateX(0deg);
+    -ms-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+     
+    -moz-transition: all 0.2s ease-in-out 0.3s; /* final 0.3s specifies delay before effect kicks in */
+    -webkit-transition: all 0.2s ease-in-out 0.3s;
+    -o-transition: all 0.2s ease-in-out 0.3s;
+    -ms-transition: all 0.2s ease-in-out 0.3s;
+     transition: all 0.2s ease-in-out 0.3s;
+   
+}
+
+.details input {
+
+    font-size: 150%;
+    margin-left: auto;
+    height: 70px;
+    width: 100%;
+    color: #000;
+    
+}
+
+ #register_tag {
+
+    color: rgb(2, 109, 160);
+    font-size: 235%;
+    text-indent: 39px;
+    background-color: #ccc;
+    position: absolute;
+    height: 40px;
+    width: 209px;
+    box-shadow: 0px 0px 15px #fff;
+    top: 40px;
+    right: -60px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotateX(45deg);
+}
+
+#submit {
+
+    position: relative;
+    height: 35px;
+    width: 125px;
+    font-weight: bold;
+    line-height: 1.7;
+    font-size: 200%;
+    float: left;
+    margin: 12% 0% 0% 46%;
+}
+
+input[type="submit"]
+{
+    padding: 15px 35px 15px 35px;
+    background-color: #3f9cff;
+}
+
+input[type="submit"]:hover
+{
+    color: #fff;
+    box-shadow: 0px 0px 7px #fff;
+}
+
+#message
+{
+    position: absolute;
+    font-size: 250%;
+    text-align: center;
+    padding: 5%;
+    top: 190px;
+    left: 60px;
+}
+
+#message .big
+{
+    font-size: 220%;
+}
+#message .resurgence
+{
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+    color: #f47d31;
+}
+
+#message .small
+{
+    font-size: 75%;
+}
+
+.warning
+{
+    position: relative;
+    color: #FF1414;
+    font-size: 150%;
+    width: 33%;
+    padding: 3px 1px 1px 101px;
+    top: 130px;
+    left: 400px;
+}
+
+#intra_univ
+{
+    margin: 20px 350px 10px 155px;
+}
+#head
+{
+    position: absolute;
+    width: 100%;
+    font-size: 280%;
+    color: #14B6EA;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.8);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotateX(-90deg);
+    margin: 30% 0% 0% -45%;
+    
+}
+#intra_univ table 
+{
+
+    font-size: 200%;
+    width: 150%;
+    margin-top: -14px;
+   
+}
+
+#intra_univ table th
+{
+    font-weight: bold;
+    font-size: 55%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white;
+}
+#intra_univ table td
+{
+    font-size: 40%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#inter_univ
+{
+    margin: 30px 100px 10px 100px;
+}
+#inter_univ #header
+{
+    font-size: 250%;
+    margin: 0;
+    color: #14B6EA;
+    text-align: center;
+    padding: 15px;
+}
+#inter_univ table 
+{
+    font-size: 200%;
+    width: 100%;
+}
+
+#inter_univ table th
+{
+    font-size: 70%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white;
+}
+#inter_univ table td
+{
+    font-size: 55%;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#note
+{
+    margin: 0px 0px 0px 100px;
+    font-size: 15px; 
+}
+
+.item .left p
+{
+    font-size: 190%;
+}
+
+
+.contactinfo #image_2 img
+{
+    width: 100%;
+    height: 100%;
+    margin: 0% 0% 0% 0%;
+}
+
+.message
+{
+    font-size: 150%;
+    padding: 3% 0% 0% 33%;
+    position: absolute;
+    color: #6FB118;
+}
+
+#date
+{
+    font-size: 210%;
+    position: absolute;
+    margin: -10% 0% 0% 68%;
+}
