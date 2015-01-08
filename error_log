@@ -1,2 +1,0 @@
-[09-Apr-2013 18:35:26 Asia/Calcutta] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'smvdunet'@'localhost' (using password: NO) in /home/smvdunet/public_html/portals/resurgence/registration.php on line 22
-[09-Apr-2013 18:35:26 Asia/Calcutta] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/smvdunet/public_html/portals/resurgence/registration.php on line 22
