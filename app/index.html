@@ -21,6 +21,11 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+      
+    <div class="canvas">  
+        <canvas id="projector" width="100%" height="100%">Your browser does not support the Canvas element.</canvas>
+    </div>
+
     <div class="container">
       <div class="header">
         <ul class="nav nav-pills pull-right">
@@ -28,13 +33,13 @@
           <li><a ng-href="#/about">About</a></li>
           <li><a ng-href="#/contact">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Resurgence 2k15</h3>
+        <a href="#/"><h3>Resurgence 2k15</h3></a>
       </div>
 
       <div ng-view="" class="view-slide-in"></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Web team</p>
+        <p><span class="glyphicon glyphicon-heart"></span> <a href="http://github.com/smvdu" target="_blank">from the Web team</a>         </p>
       </div>
     </div>
 
@@ -73,6 +78,7 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
+        <script src="scripts/particles.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
