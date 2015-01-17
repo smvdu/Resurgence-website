@@ -17,7 +17,7 @@ if (canvas && canvas.getContext) {
             y: Math.random()*window.innerHeight, 
             vx: ((Math.random()*(VELOCITY*2))-VELOCITY),
             vy: ((Math.random()*(VELOCITY*2))-VELOCITY),
-            size: 1+Math.random()*2,
+            size: Math.random()*2,
             color: colors[ Math.floor( Math.random() * colors.length ) ]
         } );
     }
@@ -110,7 +110,7 @@ function MouseDown(e) {
 
 function ResizeCanvas(e) {
     canvas.width = window.innerWidth - 20;
-    canvas.height = window.innerHeight - 20;
+    canvas.height = window.innerHeight - 13;
 }
 
 function DistanceBetween(p1,p2) {

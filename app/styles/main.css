@@ -2,9 +2,13 @@
 
 body
 {
-    background-color: #068DB9;
+    background: #3a8285 url("/images/header.jpg") no-repeat center center fixed;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body p
