@@ -147,9 +147,6 @@ a, a:hover, a:active, a:visited
 #cssmenu {
   width: auto;
   margin: 8px;
-  background-color: #000;
-  opacity: 0.4;
-  border-radius: 100%;
 }
 
 .center
@@ -201,7 +198,7 @@ a, a:hover, a:active, a:visited
   transition: color .25s;
 }
 #cssmenu ul li a:hover {
-  color: #D9CACA;
+  color: #000;
 }
 #cssmenu ul li a:hover:before {
   width: 100%;
@@ -237,7 +234,7 @@ a, a:hover, a:active, a:visited
   display: none;
 }
 #cssmenu ul li.active a {
-  color: #D9CACA;
+  color: #000;
 }
 #cssmenu ul li.active a:before {
   width: 100%;
