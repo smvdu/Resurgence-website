@@ -26,15 +26,20 @@
         <canvas id="projector" width="100%" height="100%">Your browser does not support the Canvas element.</canvas>
     </div>
 
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#/">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#/contact">Contact</a></li>
+    <div id='cssmenu'>
+        <ul>
+            <div class="center">
+               <li class='active'><a ng-href="#/">Home</a></li>
+               <li><a ng-href="#/about">About</a></li>
+               <li><a ng-href='#/'>Events</a></li>
+               <li><a ng-href='#/'>Gallery</a></li>
+               <li><a ng-href='#/'>Sponsors</a></li>
+               <li class='last'><a ng-href="#/contact">Contact</a></li>
+            </div>
         </ul>
-        <a href="#/"><h3>Resurgence 2k15</h3></a>
-      </div>
+    </div>
+      
+    <div class="container">
 
       <div ng-view="" class="view-slide-in"></div>
 
