@@ -1,10 +1,16 @@
-/* Space out content a bit */
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,400italic);
+
 body
 {
     background-color: #068DB9;
     color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
+body p
+{
+    font-size: 16px;
+}
 .canvas
 {
     position: absolute;
@@ -179,7 +185,7 @@ a, a:hover, a:active, a:visited
   text-decoration: none;
   display: block;
   padding: 15px 25px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', 'Open Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
