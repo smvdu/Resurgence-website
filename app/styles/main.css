@@ -376,3 +376,10 @@ h1 span{
   95% { top: -159px; }
   100%{ top:-1px; }
 }
+
+/********************About Page *****************/
+#about p
+{
+    text-align: justify;
+    font-size: 18px;
+}
