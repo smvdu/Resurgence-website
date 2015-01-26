@@ -38,7 +38,7 @@ function type(entry)
 	{	
 		if(entry=="literary")
 		{
-			div.innerHTML="<ol><li class='button' href='#openModal'> Debate-Hindi (Single)</li><li>Debate–English (Single)</li><li>Extempore (G)</li><li>Poetry – Hindi\\ English (S) </li><li>Youth Parliament(G)</li><li>Essay Writing – Hindi\\English (S)</li><li>Travelogue</li><li>Creative Writing–Hindi\\English(G)</li><li>Quiz (G)</li></ol>";
+			div.innerHTML="<ol><li> Debate-Hindi (Single)</li><li>Debate–English (Single)</li><li>Extempore (G)</li><li>Poetry – Hindi\\ English (S) </li><li>Youth Parliament(G)</li><li>Essay Writing – Hindi\\English (S)</li><li>Travelogue</li><li>Creative Writing–Hindi\\English(G)</li><li>Quiz (G)</li></ol>";
 		}
 		else
 		if(entry=="music")
