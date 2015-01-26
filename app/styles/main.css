@@ -377,6 +377,11 @@ h1 span{
   100%{ top:-1px; }
 }
 
+#about p
+{
+    text-align: justify;
+    font-size: 18px;
+}
 /*event*/
 
 .containing{
@@ -477,3 +482,4 @@ scrollbar-thumb:window-inactive {
 
 
 /*end event*/
+
