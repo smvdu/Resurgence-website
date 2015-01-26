@@ -376,3 +376,104 @@ h1 span{
   95% { top: -159px; }
   100%{ top:-1px; }
 }
+
+/*event*/
+
+.containing{
+  border-radius: 13px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:60px; 
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  width: 700px;
+  text-align: center;
+  color: #fff;
+  height:350px; 
+  overflow-y: auto;
+  
+}
+
+@media only screen and (max-width:1022px) {
+  .containing{
+    width: 95%;
+    height: auto;
+    overflow-y:visible; 
+    margin-top:10px; 
+  }
+  #frameimg{
+    display: none;
+  }
+}
+
+#second{
+  display: none;
+}
+
+#third{
+  text-align: left;
+  font-size: 19px;
+}
+
+#frameimg{
+  position: absolute;
+  height:75%;
+  width: 80%;
+  top: 15%;
+  left: 10%;
+
+}
+
+#back_button{
+  position: relative;
+  height: 60px;
+  left: -12%;
+  margin-top: -10%;
+  display: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: grey; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: none; 
+}
+/* Track */
+scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: grey; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+scrollbar-thumb:window-inactive {
+  background: none; 
+}
+
+
+
+
+/*end event*/
