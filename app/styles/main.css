@@ -398,7 +398,7 @@ h1 span{
   color: #fff;
   height:350px; 
   overflow-y: auto;
-  
+  z-index: 20;
 }
 
 @media only screen and (max-width:1022px) {
@@ -410,6 +410,12 @@ h1 span{
   }
   #frameimg{
     display: none;
+  }
+  #slide_image{
+    display: none;
+  }
+  #back_button{
+    margin-left: 20%;
   }
 }
 
@@ -424,11 +430,29 @@ h1 span{
 
 #frameimg{
   position: absolute;
+  z-index: 15;
   height:75%;
   width: 80%;
   top: 15%;
   left: 10%;
 
+}
+
+#slide_image{
+  position: absolute;
+  background-image: url("/images/slide.png");
+  float:right;
+  opacity: 0.1;
+  filter: alpha(opacity=60);
+  z-index: 3;
+  height:70%;
+  width: 75%;
+  top: 18%;
+  left: 13%;
+}
+
+#slide_image img{
+  z-index: 4;
 }
 
 #back_button{
@@ -437,6 +461,7 @@ h1 span{
   left: -12%;
   margin-top: -10%;
   display: none;
+  z-index: 35;
 }
 
 ::-webkit-scrollbar {
@@ -477,9 +502,6 @@ scrollbar-thumb {
 scrollbar-thumb:window-inactive {
   background: none; 
 }
-
-
-
 
 /*end event*/
 
