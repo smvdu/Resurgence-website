@@ -26,27 +26,21 @@ angular
       })
       .when('/about', {
         templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
       })
       .when('/events', {
         templateUrl: 'views/events.html',
-        controller: 'EventsCtrl'
       })
       .when('/gallery', {
         templateUrl: 'views/gallery.html',
-        controller: 'GalleryCtrl'
       })
       .when('/sponsors', {
         templateUrl: 'views/sponsors.html',
-        controller: 'SponsorsCtrl'
       })
       .when('/contact', {
         templateUrl: 'views/contact.html',
-        controller: 'ContactCtrl'
       })
       .when('/register', {
         templateUrl: 'views/register.html',
-        controller: 'RegisterCtrl'
       })
       .otherwise({
         redirectTo: '/'
