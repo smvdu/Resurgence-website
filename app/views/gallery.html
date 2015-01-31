@@ -2,10 +2,7 @@
 <div>
     <center><h1>Gallery</h1></center>
 </div> 
-<div style='overflow-x:hidden; float:left; width:850px;height:480px;padding:20px;  background-image: url(images/10.jpg); border-radius:15px;' id="gallery">
- 
-    
-   
+<div id="gallery">   
          <div class="row">
 
                  <div class="col-md-3">
@@ -381,5 +378,22 @@ body:after {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+#gallery{
+  overflow-x:hidden; 
+  margin-right:auto;
+  margin-left:auto; 
+  width:850px;
+  height:480px;
+  padding:20px;
+  background-image: url(images/10.jpg);
+  border-radius:15px;
+}
+
+@media only screen and (max-width:1022px) {
+  #gallery{
+    width:80%;height:480px;
+  }
 }
 </style>
