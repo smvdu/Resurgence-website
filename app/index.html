@@ -29,7 +29,7 @@
     </div>
 
     <div id='cssmenu'>
-        <ul>
+        <ul class="nav-list">
             <div class="center">
                <li class='active'><a ng-href="#/">Home</a></li>
                <li><a ng-href="#/about">About</a></li>
@@ -88,5 +88,11 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
+    <script>
+        $('.nav-list').on('click', 'li', function() {
+            $('.nav-list li.active').removeClass('active');
+            $(this).addClass('active');
+        });  
+    </script>
 </body>
 </html>
