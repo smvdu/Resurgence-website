@@ -97,7 +97,7 @@ a, a:hover, a:active, a:visited
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 850px;
   }
 }
 .container-narrow > hr {
@@ -377,6 +377,11 @@ h1 span{
   100%{ top:-1px; }
 }
 
+#about
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 #about p
 {
     text-align: justify;
