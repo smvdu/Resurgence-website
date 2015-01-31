@@ -1,6 +1,43 @@
-<div id="about">
-    <h1>About</h1>
 
+<link rel="stylesheet" type="text/css" href="/Content/font-awesome/css/font-awesome.min.css" />    
+ <div class="container" style="padding:20px;">
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img alt="Bootstrap template" src="images/01.jpg"/>
+                <div class="carousel-caption">
+                    <h3>Shri Mata Vaishno Devi University</h3>
+                    <p> <p>
+    Resurgence, the Annual Cultural and Sports festival of Shri Mata Vaishno Devi University (SMVDU), is one of the most popular         college fest in the northern India. Students and performers from across the country are invited to be part of this fest, compete     with one another at a common platform.                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img alt="Bootstrap template" src="images/01.jpg" />
+                <div class="carousel-caption">
+                    <div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+                        <a href="#"><span class="avatar"><i class="fa fa-google-plus"></i></span></a>
+                        <a href="#"><span class="avatar"><i class="fa fa-linkedin"></i></span></a>
+                        <a href="#"><span class="avatar"><i class="fa fa-facebook"></i></span></a>
+                        <a href="#"><span class="avatar"><i class="fa fa-github"></i></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+               <img alt="Bootstrap template" src="images/01.jpg" />
+                <div class="carousel-caption">
+                    <h3>RESURGENCE 2K15</h3>
+                    <p> It is one of the largest platforms for college students across the country to come together to celebrate culture, fine arts and     social awareness. Resurgence is a place for the passionate, the sportive, the energetic and the enthusiastic to interact with       other like minded peers. Riding on the success of previous years Resurgence comes to you this year with a theme that manifests       MAGIC AND EXCITEMENT. We proudly invite you to experience the very spirit of festivity, unbridled energy and passion at             Resurgence 2k15.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+    
+<div id="about"> 
+    <h1>About</h1>
     <p>
     Resurgence, the Annual Cultural and Sports festival of Shri Mata Vaishno Devi University (SMVDU), is one of the most popular         college fest in the northern India. Students and performers from across the country are invited to be part of this fest, compete     with one another at a common platform.</p>
     <p>
@@ -9,3 +46,51 @@
     It is one of the largest platforms for college students across the country to come together to celebrate culture, fine arts and     social awareness. Resurgence is a place for the passionate, the sportive, the energetic and the enthusiastic to interact with       other like minded peers. Riding on the success of previous years Resurgence comes to you this year with a theme that manifests       MAGIC AND EXCITEMENT. We proudly invite you to experience the very spirit of festivity, unbridled energy and passion at             Resurgence 2k15.
     </p>
 </div>
+<style>
+
+#carousel1 .nav a small {
+    display: block;
+}
+#carousel1 .nav {
+    ;
+}
+.nav-justified > li > a {
+    border-radius: 0px;
+}
+.nav-pills > li[data-slide-to="0"].active a {
+    background-color: gray;
+}
+.nav-pills > li[data-slide-to="1"].active a {
+    background-color: gray;
+}
+.nav-pills > li[data-slide-to="2"].active a {
+    background-color:gray ;
+}
+</style>
+
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('#carousel1').carousel({
+            interval: 2000
+        });
+
+        var clickEvent = false;
+
+        $('#carousel1').on('click', '.nav a', function () {
+            clickEvent = true;
+            $('.nav li').removeClass('active');
+            $(this).parent().addClass('active');
+        }).on('slid.bs.carousel', function (e) {
+            if (!clickEvent) {
+                var count = $('.nav').children().length - 1;
+                var current = $('.nav li.active');
+                current.removeClass('active').next().addClass('active');
+                var id = parseInt(current.data('slide-to'));
+                if (count == id) {
+                    $('.nav li').first().addClass('active');
+                }
+            }
+            clickEvent = false;
+        });
+    });
+</script>
