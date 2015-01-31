@@ -443,7 +443,7 @@ h1 span{
   background-image: url("/images/slide.png");
   float:right;
   opacity: 0.1;
-  filter: alpha(opacity=60);
+  filter: alpha(opacity=10);
   z-index: 3;
   height:70%;
   width: 75%;
