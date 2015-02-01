@@ -437,10 +437,9 @@ h1 span{
   position: absolute;
   z-index: 15;
   height:75%;
-  width: 80%;
+  width: 75%;
   top: 15%;
-  left: 10%;
-
+  left: 13%;  
 }
 
 #slide_image{
@@ -451,9 +450,9 @@ h1 span{
   filter: alpha(opacity=10);
   z-index: 3;
   height:70%;
-  width: 75%;
+  width: 70%;
   top: 18%;
-  left: 13%;
+  left: 15%;
 }
 
 #slide_image img{
@@ -463,8 +462,8 @@ h1 span{
 #back_button{
   position: relative;
   height: 60px;
-  left: -12%;
-  margin-top: -10%;
+  left: -4%;
+  margin-top: -5%;
   display: none;
   z-index: 35;
 }
