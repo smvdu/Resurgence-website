@@ -467,8 +467,7 @@ h1 span{
 #back_button{
   position: relative;
   height: 60px;
-  left: -4%;
-  margin-top: -7%;
+  left: -1%;
   display: none;
   z-index: 35;
 }
