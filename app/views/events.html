@@ -1,5 +1,5 @@
 <div id="frame_section">
-<img src="images/frame.png" id="frameimg">
+<img src="images\frame.png" id="frameimg">
 
 <marquee id="slide_image" behavior="scroll" scrolldelay="0" scrollamount="2" >
   <img src="images/slide.png">
@@ -30,14 +30,14 @@
 </div>
 <div id="second">
   <div class="row bs-examples">
-    <div class="col-xs-12 col-sm-4 col-md-4" onclick="type('literary')">
+    <div class="col-xs-12 col-sm-4 col-md-4" onclick="type('literary');display_event('inter_house','literary','Debate-Hindi (Single)');">
       <a class="thumbnail" >
-        <img src="images/literary.jpg" alt="Literary">
+        <img src="images\literary.jpg" alt="Literary">
       </a>
       <h4>Literary</h4>
 
     </div>
-    <div class="col-xs-12 col-sm-4 col-md-4" onclick="type('music')">
+    <div class="col-xs-12 col-sm-4 col-md-4" onclick="type('music');display_event('inter_house','music','Solo(Single)');">
       <a class="thumbnail">
         <img src="images\music.jpg" alt="Music">
       </a>
@@ -94,7 +94,12 @@
 </div>
 
 <div id="third">
-
+  <div>
+  <div id="event_list"></div>
+  <div id="event_description">Event Description</div>
+  <br/>
+  </div>
+  <img src='images\Back.png' id='back_button1' style='top:7%;'onclick='back_operation()'>
 </div>
 
 </div>
@@ -103,3 +108,4 @@
 </div>
 <input type="hidden" id="selection" value="inter">
 <input type="hidden" id="selection2" value="none">
+<input type="hidden" id="event_selection" value="none"> 

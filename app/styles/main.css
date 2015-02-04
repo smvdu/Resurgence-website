@@ -464,12 +464,41 @@ h1 span{
   z-index: 4;
 }
 
-#back_button{
+#back_button,#back_button1{
   position: relative;
   height: 60px;
   left: -1%;
   display: none;
   z-index: 35;
+}
+
+#event_list{
+  float: left;
+  height: 50%;
+  border: 1px solid black;
+  padding: 8px;  
+  background: transparent\9;  
+  background:rgba(0,0,0,0.3);
+  border-radius: 9px;
+  height: 280px; 
+  display: none;
+  overflow-y: scroll;
+}
+
+#event_description{
+  border: 1px solid black; 
+  padding: 8px;  
+  background: transparent\9;  
+  background:rgba(0,0,0,0.3);
+  height: 280px;
+  font-size: 16px;
+  display: none;
+  border-radius: 9px;
+  overflow-y: scroll;
+}
+
+#event_list ol li:hover{
+  cursor: pointer;
 }
 
 ::-webkit-scrollbar {
