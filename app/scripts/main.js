@@ -1,3 +1,33 @@
+var setObj;
+var xmlResponseText;
+window.onload=function(e){
+	if(screen.availWidth<900||screen.width<900)
+	{
+		document.getElementById("event_list").setAttribute("style", " float: none;width: 100%;height: auto;overflow-y:visible;");
+	}
+	var xmlhttp=false;
+	if (window.XMLHttpRequest)
+	{// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	if(xmlhttp)
+	{
+		var text="";
+		xmlhttp.open("GET",'event.xml');
+		xmlhttp.onreadystatechange=function()
+		{
+			if(xmlhttp.readyState==4 && xmlhttp.status==200)
+				{
+					xmlResponseText=xmlhttp.responseXML;
+				}	
+		}
+		xmlhttp.send();
+	}
+}
 function first_enter(type)
 {
 	document.getElementById("first").style.display = "none";
@@ -122,38 +152,16 @@ function type(entry)
 function display_event(type,event_type,event1)
 {
 	document.getElementById("event_list").style.display="block";
-	var xmlhttp=false;
-	if (window.XMLHttpRequest)
-	{// code for IE7+, Firefox, Chrome, Opera, Safari
-		xmlhttp=new XMLHttpRequest();
-	}
-	else
-	{// code for IE6, IE5
-		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	if(xmlhttp)
-	{
-		var text="";
-		xmlhttp.open("GET",'event.xml?val='+Math.random());
-		xmlhttp.onreadystatechange=function()
+	var rol=xmlResponseText.getElementsByTagName(type);
+	var ev_ty=rol[0].getElementsByTagName(event_type);
+	var role = ev_ty[0].getElementsByTagName("Event");
+	for(var j=0;j<role.length;j++)
+	{						
+		var name = role[j].attributes.name.value;
+		if(name==event1)
 		{
-			if(xmlhttp.readyState==4 && xmlhttp.status==200)
-				{
-					text=xmlhttp.responseXML;
-					var rol=text.getElementsByTagName(type);
-					var ev_ty=rol[0].getElementsByTagName(event_type);
-					var role = ev_ty[0].getElementsByTagName("Event");
-					for(var j=0;j<role.length;j++)
-					{						
-						var name = role[j].attributes.name.value;
-						if(name==event1)
-						{
-							document.getElementById("event_description").innerHTML=role[j].childNodes[1].nodeValue;
-						}
-					}
-				}	
+			document.getElementById("event_description").innerHTML=role[j].childNodes[1].nodeValue;
 		}
-		xmlhttp.send();
 	}
 }
 
