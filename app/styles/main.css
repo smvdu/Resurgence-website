@@ -543,4 +543,15 @@ scrollbar-thumb:window-inactive {
 }
 
 /*end event*/
-
+.social-icon
+{
+padding-top: 6px;
+font-size: 16px;
+text-align: center;
+width: 32px;
+height: 32px;
+border: 2px solid white;
+border-radius: 50%;
+color: white;
+margin: 5px;
+}
