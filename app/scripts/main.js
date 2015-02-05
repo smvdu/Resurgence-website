@@ -51,22 +51,22 @@ function type(entry)
 		else
 		if(entry=="music")
 		{
-			text="<ol><li onClick='list_hover(this)'>Solo(Single)</li><li onClick='list_hover(this)'>Suf Classical Singing</li><li onClick='list_hover(this)'>Folk Singing</li><li onClick='list_hover(this)'>Choir Singing</li><li onClick='list_hover(this)'>Retro Unplugged(Single)</li><li onClick='list_hover(this)'>Instrumental (without using Traditional Instruments)</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Dreamovation</li><li onClick='list_hover(this)'>Qawwali</li><li onClick='list_hover(this)'>Western Vocal</li><li onClick='list_hover(this)'>Hindi Duet</li><li onClick='list_hover(this)'>Instrumental (with using atleast three non-traditional Instruments)</li></ol>";
 		}
 		else
 		if(entry=="art")
 		{
-			text="<ol><li onClick='list_hover(this)'>Comic Strip(Single)</li><li onClick='list_hover(this)'>Rangoli</li><li onClick='list_hover(this)'>Graffi Art (Wall Painting)</li><li onClick='list_hover(this)'>Road Painting</li><li onClick='list_hover(this)'>Poster Making</li><li onClick='list_hover(this)'>Sketching</li><li onClick='list_hover(this)'>Face Painting</li><li onClick='list_hover(this)'>Clay Model</li><li onClick='list_hover(this)'>Tattoo Making</li><li onClick='list_hover(this)'>Banner Making</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Comic Strip(Single)</li><li onClick='list_hover(this)'>Rangoli</li><li onClick='list_hover(this)'>Graffi Art (Wall Painting)</li><li onClick='list_hover(this)'>Road Painting</li><li onClick='list_hover(this)'>Poster Making</li><li onClick='list_hover(this)'>Sketching</li><li onClick='list_hover(this)'>Face Painting</li><li onClick='list_hover(this)'>Clay Model</li><li onClick='list_hover(this)'>Stipling</li><li onClick='list_hover(this)'>Banner Making</li></ol>";
 		}
 		else
 		if(entry=="theature")
 		{
-			text="<ol><li onClick='list_hover(this)'>Street Play</li><li onClick='list_hover(this)'>Skit</li><li onClick='list_hover(this)'>Legendary Drama</li><li onClick='list_hover(this)'>Nartya-Natika</li><li onClick='list_hover(this)'>Stand-up Comedy</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Street Play</li><li onClick='list_hover(this)'>Skit</li><li onClick='list_hover(this)'>Legendary Drama</li><li onClick='list_hover(this)'>Nartya-Natika</li></ol>";
 		}
 		else
 		if (entry=="dance") 
 		{
-			text="<ol><li onClick='list_hover(this)'>Solo(Single)-Free Style</li><li onClick='list_hover(this)'>Group Dance-Bollywood</li><li onClick='list_hover(this)'>Classical Solo</li><li onClick='list_hover(this)'>Street Dance</li><li onClick='list_hover(this)'>Folk Dance</li><li onClick='list_hover(this)'>Face-off</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Duet</li><li onClick='list_hover(this)'>Bollymania</li><li onClick='list_hover(this)'>Semi-Classical Solo</li><li onClick='list_hover(this)'>Street Dance</li><li onClick='list_hover(this)'>Folk Dance with Live Music</li></ol>";
 		}
 		else
 		if(entry=="photo")
@@ -76,19 +76,19 @@ function type(entry)
 		else
 		if(entry=="special")
 		{
-			text="<ol><li onClick='list_hover(this)'>Flash Mob</li><li onClick='list_hover(this)'>On the Spot Hidden Talent</li><li onClick='list_hover(this)'>Fashion Show</li><li onClick='list_hover(this)'>Mila Kalpa</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>On the Spot Hidden Talent</li><li onClick='list_hover(this)'>Fashion Show</li><li onClick='list_hover(this)'>Mea Culpa</li></ol>";
 		}
 	}
 	else
 	{
 		if(entry=="literary")
 		{
-			text="<ol><li onClick='list_hover(this)'>Debate</li><li onClick='list_hover(this)'>Quiz</li><li onClick='list_hover(this)'>Extempore</li></ol>";	
+			text="<ol><li onClick='list_hover(this)'>Debate</li><li onClick='list_hover(this)'>Quiz</li><li onClick='list_hover(this)'>Group Extempore</li></ol>";	
 		}
 		else
 		if(entry=="music")
 		{
-			text="<ol><li onClick='list_hover(this)'>War of Bands</li><li onClick='list_hover(this)'>Light Indian Vocal</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>War of Bands</li><li onClick='list_hover(this)'>Dreamovation</li></ol>";
 		}
 		else
 		if(entry=="art")
@@ -98,17 +98,17 @@ function type(entry)
 		else
 		if(entry=="theature")
 		{
-			text="<ol><li onClick='list_hover(this)'>One Act Play</li><li onClick='list_hover(this)'>Stand-Up Comedy</li><li onClick='list_hover(this)'>Street Play</li><li onClick='list_hover(this)'>Legendary Drama</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Skit</li><li onClick='list_hover(this)'>Legendary Drama</li></ol>";
 		}
 		else
 		if (entry=="dance") 
 		{
-			text="<ol><li onClick='list_hover(this)'>Solo Free Style</li><li onClick='list_hover(this)'>Classical Solo</li><li onClick='list_hover(this)'>Street Dance</li><li onClick='list_hover(this)'>Folk Dance</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Desi Beat.</li><li onClick='list_hover(this)'>Classical Solo</li><li onClick='list_hover(this)'>Street Dance</li><li onClick='list_hover(this)'>Folk Dance</li></ol>";
 		}
 		else
 		if(entry=="photo")
 		{
-			text="<ol><li onClick='list_hover(this)'>Short Film Making</li><li onClick='list_hover(this)'>Ad Film Making</li><li onClick='list_hover(this)'>SMVDU Cover Shot</li></ol>";
+			text="<ol><li onClick='list_hover(this)'>Short Film Making</li><li onClick='list_hover(this)'>Ad Film Making</li></ol>";
 		}
 		else
 		if(entry=="special")
@@ -157,13 +157,33 @@ function display_event(type,event_type,event1)
 	}
 }
 
+function display_default_uni(event_name)
+{
+	var type=document.getElementById("selection").value;
+	if(type=="intra")
+		type="inter_university";
+	else
+		return;
+	var event_type=document.getElementById("event_selection").value;
+	display_event(type,event_type,event_name);
+}
+function display_default(event_name)
+{
+	var type=document.getElementById("selection").value;
+	if(type=="inter")
+		type="inter_house";
+	else
+		return;
+	var event_type=document.getElementById("event_selection").value;
+	display_event(type,event_type,event_name);
+}
 
 function list_hover(obj)
 {
 	var event_name=obj.innerHTML.trim();
 	var event_type=document.getElementById("event_selection").value;
 	var type=document.getElementById("selection").value;
-	if(type="inter")
+	if(type=="inter")
 		type="inter_house";
 	else
 		type="inter_university";

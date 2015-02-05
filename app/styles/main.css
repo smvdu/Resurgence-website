@@ -476,7 +476,8 @@ h1 span{
   float: left;
   height: 50%;
   border: 1px solid black;
-  padding: 8px;  
+  padding: 8px; 
+  width: 50%; 
   background: transparent\9;  
   background:rgba(0,0,0,0.3);
   border-radius: 9px;
@@ -491,6 +492,7 @@ h1 span{
   background: transparent\9;  
   background:rgba(0,0,0,0.3);
   height: 280px;
+  width: 50%;
   font-size: 16px;
   display: none;
   border-radius: 9px;
