@@ -182,6 +182,9 @@ function display_default(event_name)
 		type="inter_house";
 	else
 		return;
+	var allLi=document.getElementById("event_list").getElementsByTagName("li");	
+	allLi[0].style.color="black";
+	allLi[0].style.fontWeight="bold";
 	var event_type=document.getElementById("event_selection").value;
 	display_event(type,event_type,event_name);
 }
@@ -195,5 +198,14 @@ function list_hover(obj)
 		type="inter_house";
 	else
 		type="inter_university";
+	var allLi=document.getElementById("event_list").getElementsByTagName("li");
+	for(var i=0;i<allLi.length;i++)
+	{
+		allLi[i].style.color="white";
+		allLi[i].style.fontWeight="normal";		
+	}
+	obj.style.color="black";
+	obj.style.fontWeight="bold";
+	event.stopPropagation();
 	display_event(type,event_type,event_name);
 }
