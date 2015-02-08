@@ -172,6 +172,9 @@ function display_default_uni(event_name)
 		type="inter_university";
 	else
 		return;
+	var allLi=document.getElementById("event_list").getElementsByTagName("li");	
+	allLi[0].style.color="black";
+	allLi[0].style.fontWeight="bold";
 	var event_type=document.getElementById("event_selection").value;
 	display_event(type,event_type,event_name);
 }
