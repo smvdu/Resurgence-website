@@ -492,7 +492,7 @@ h1 span{
 
 #slide_image{
   position: absolute;
-  background-image: url("/images/slide.png");
+  background-image: url("/images/slide.jpg");
   float:right;
   opacity: 0.1;
   filter: alpha(opacity=10);
