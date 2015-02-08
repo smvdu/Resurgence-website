@@ -144,36 +144,57 @@ a, a:hover, a:active, a:visited
 
 /******************View Transition************/
 
-.view-slide-in.ng-enter {
-  transition: all 1s ease;
-  -webkit-transition:all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-   
-  opacity:0.5;
-  position:relative;
-  opacity:0;
-  top:10px;
-  left:20px;
+@keyframes rotateFall
+{
+    0%      { transform: rotateZ(0deg); }
+    20%     { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+    40%     { transform: rotateZ(17deg); }
+    60%     { transform: rotateZ(16deg); }
+    100%    { transform: translateY(100%) rotateZ(17deg); }
 }
 
-.view-slide-in.ng-enter {
-  opacity: 0;
+/* slide in from the bottom */
+@keyframes slideOutLeft
+{
+    to      { transform: translateX(-100%); }
 }
-.view-slide-in.ng-enter.ng-enter-active {
-  top:0;
-  left:0;
-  opacity: 1;
+
+/* rotate out newspaper */
+@keyframes rotateOutNewspaper
+{
+    to      { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
 }
-.view-slide-in.ng-leave.ng-leave-active{
-  top:5px;
-  left:5px;
-  opacity:1;
+
+/* entering animations --------------------------------------- */
+/* scale up */
+@keyframes scaleUp
+{
+    from    { opacity: 0.3; -webkit-transform: scale(0.8); }
 }
-.view-slide-in.ng-leave{
-  top:0;
-  left:0;
-  opacity:0;
+
+/* slide in from the right */
+@keyframes slideInRight
+{
+    from    { transform:translateX(100%); }
+    to      { transform: translateX(0); }
+}
+
+/* slide in from the bottom */
+@keyframes slideInUp
+{
+    from    { transform:translateY(100%); }
+    to      { transform: translateY(0); }
+}
+
+.ng-enter
+{
+    animation: scaleUp 1s both ease-in; 
+    z-index: 8888;
+}
+.ng-leave
+{ 
+    animation: slideOutLeft 0.5s both ease-in;
+    z-index: 9999;
 }
 
 /********************CSS Menu*******************/
