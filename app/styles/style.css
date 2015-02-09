@@ -546,8 +546,12 @@ h1 span{
   cursor: pointer;
 }
 
+#whole_event{
+  display: none;
+}
+
 ::-webkit-scrollbar {
-    width: 3px;
+    width: 6px;
 }
  
 /* Track */
@@ -561,7 +565,7 @@ h1 span{
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: grey; 
+    background: #414a6a; 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {

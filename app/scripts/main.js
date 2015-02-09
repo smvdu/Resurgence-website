@@ -1,6 +1,7 @@
 var setObj;
 var xmlResponseText;
 window.onload=function(e){
+	setTimeout(enableEvent, 2000);
 	if(screen.availWidth<900||screen.width<900)
 	{
 		document.getElementById("event_list").setAttribute("style", " float: none;width: 100%;height: auto;overflow-y:visible;");
@@ -28,6 +29,20 @@ window.onload=function(e){
 		xmlhttp.send();
 	}
 }
+
+function display_stop(){
+   document.getElementById("whole_event").style.display="none";
+}
+
+function timerStart()
+{
+	setTimeout(enableEvent, 2000);
+}
+
+function enableEvent() {
+   document.getElementById("whole_event").style.display="block";
+}
+
 function first_enter(type)
 {
 	document.getElementById("first").style.display = "none";
