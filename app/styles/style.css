@@ -469,7 +469,7 @@ h1 span{
 }
 
 #second{
-  display: none;
+  display: block;
 }
 
 #third{
