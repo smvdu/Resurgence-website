@@ -1,23 +1,11 @@
 var setObj;
 var xmlResponseText;
-function timerStart()
-{
-	setTimeout(enableEvent, 2000);
-}
-
-function enableEvent() {
-   document.getElementById("whole_event").style.display="block";
-}
-
 window.onload=function(e){
 	setTimeout(enableEvent, 2000);
 	if(screen.availWidth<900||screen.width<900)
 	{
 		document.getElementById("event_list").setAttribute("style", " float: none;width: 100%;height: auto;overflow-y:visible;");
 	}
-	document.getElementById("selection").value="intra";
-	document.getElementById("third").style.display="none";	
-	document.getElementById("event_description").style.display="none";
 	var xmlhttp=false;
 	if (window.XMLHttpRequest)
 	{// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -30,7 +18,7 @@ window.onload=function(e){
 	if(xmlhttp)
 	{
 		var text="";
-		xmlhttp.open("GET",'event.xml?math=3');
+		xmlhttp.open("GET",'event.xml');
 		xmlhttp.onreadystatechange=function()
 		{
 			if(xmlhttp.readyState==4 && xmlhttp.status==200)
@@ -40,24 +28,28 @@ window.onload=function(e){
 		}
 		xmlhttp.send();
 	}
-}
+};
 
 function display_stop(){
    document.getElementById("whole_event").style.display="none";
 }
 
+function timerStart()
+{
+	setTimeout(enableEvent, 2000);
+}
 
+function enableEvent() {
+   document.getElementById("whole_event").style.display="block";
+}
 
 function back_operation()
 {
-	if(document.getElementById("selection2").value=="enter")
-	{
-			document.getElementById("second").style.display = "block";
-			document.getElementById("third").style.display="none";
-			document.getElementById("selection2").value="none";
-			document.getElementById("event_description").style.display="none";
-			document.getElementById("back_button1").style.display="none";
-	}
+	document.getElementById("second").style.display = "block";
+	document.getElementById("third").style.display="none";
+	document.getElementById("selection2").value="none";
+	document.getElementById("event_description").style.display="none";
+	document.getElementById("back_button1").style.display="none";
 }
 
 function type(entry)
@@ -71,7 +63,7 @@ function type(entry)
 	document.getElementById("back_button1").style.display="block";
 	var text="";
 	document.getElementById("event_selection").value=entry;
-		{
+	{
 		if(entry=="literary")
 		{
 			text="<ol><li onClick='list_hover(this)'>Debate</li><li onClick='list_hover(this)'>Quiz</li><li onClick='list_hover(this)'>Group Extempore</li></ol>";	
@@ -128,11 +120,7 @@ function display_event(type,event_type,event1)
 
 function display_default_uni(event_name)
 {
-	var type=document.getElementById("selection").value;
-	if(type=="intra")
-		type="inter_university";
-	else
-		return;
+	var type="inter_university";
 	var allLi=document.getElementById("event_list").getElementsByTagName("li");	
 	allLi[0].style.color="black";
 	allLi[0].style.fontWeight="bold";
@@ -141,11 +129,7 @@ function display_default_uni(event_name)
 }
 function display_default(event_name)
 {
-	var type=document.getElementById("selection").value;
-	if(type=="inter")
-		type="inter_house";
-	else
-		return;
+	var	type="inter_university";
 	var allLi=document.getElementById("event_list").getElementsByTagName("li");	
 	allLi[0].style.color="black";
 	allLi[0].style.fontWeight="bold";
@@ -157,11 +141,7 @@ function list_hover(obj)
 {
 	var event_name=obj.innerHTML.trim();
 	var event_type=document.getElementById("event_selection").value;
-	var type=document.getElementById("selection").value;
-	if(type=="inter")
-		type="inter_house";
-	else
-		type="inter_university";
+	var	type="inter_university";
 	var allLi=document.getElementById("event_list").getElementsByTagName("li");
 	for(var i=0;i<allLi.length;i++)
 	{
