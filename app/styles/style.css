@@ -2,8 +2,7 @@
 
 body
 {
-    background:  url("../images/eader.jpg") no-repeat center center fixed #9966ff;
-   
+    background: #3a8285 url("/images/header.jpg") no-repeat center center fixed;
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     -webkit-background-size: cover;
