@@ -27,8 +27,11 @@ angular
       .when('/about', {
         templateUrl: 'views/about.html',
       })
-      .when('/events', {
-        templateUrl: 'views/events.html',
+      .when('/ievent', {
+        templateUrl: 'views/ievent.html',
+      })
+	  .when('/aevent', {
+        templateUrl: 'views/aevent.html',
       })
       .when('/gallery', {
         templateUrl: 'views/gallery.html',
