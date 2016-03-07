@@ -1,91 +1,88 @@
-<section id="first_entry">
-  <div id="first_form">
-  <form id="first_page">
-    Resurgence Registration<hr id="hr_reg">
-    <table id="table_reg">
-     <tr><div><td id="text_inside">Name:</td><td><input type="text" placeholder="Full Name" name="full_name"></td></div></tr> 
-     <tr><div><td id="text_inside">College:</td><td><input type="text" placeholder="College" name="college"></td></div></tr>
-     <tr><div><td id="text_inside">Email:</td><td><input type="text" placeholder="example@domain.com" name="email"></td></div> </tr>
-     <tr><div><td id="text_inside">Mobile No.:</td><td><input type="text" placeholder="9797504758" name="phone_no"></td></div> </tr>
-     <tr><div><td><center><input type="reset" value="Reset" ></center></td><td><center><input type="button" value="Register" onclick="submit_fun()"></center></td></div></tr>
-     <tr><td colspan="2" id="f_warning"></td></tr>
-    </table>
-  </form>
-  </div>
-</section>
-<script type="text/javascript" src="/scripts/reg.js"></script>
-<style>
-td input[type=button]{    
-width: 100px;
-background-color: Transparent;
-font-weight: bold;
-color: white;
-border-radius: 1px;
-cursor: pointer;
-padding: 10px 5px;
-margin: 10px 5px;
-margin-top: 25px;
-    margin-left: 85px;
-}
 
+
+<center><h2>Resurgence Registration</h2></center> <hr id="hr_rg">
+
+
+  <section id="contact">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" name="full_name" >
+                                    
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" name="email" > 
+                                   
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *"  name="phone_no" >
+                                   
+                                </div>
+                           
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your College *"  name="college">
+                                    
+                                </div>
+
+				<div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Events you want to participate in *"  name="event">
+                                    
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-6 text-center">
+                                <div id="success"></div>
+                                <button class="btn" type="button" value="Register" onclick="submit_fun()">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<h3>Registration Fee (Payable During Check in At University)</h3>
+<ul list-style-type:number>
+<li> Rs 150 (Without Accomodation)-per participant</li>
+<li> Rs 300 (With Accomodation)-per participant </li>
+<li> Rs 500 ( With Accomadation and Pass of Star Night with Raftaar)-per participant</li>
+</ul>
+
+<script src="scripts/contact_me.js" ></script>
+<script src="scripts/jqBootstrapValidation.js" ></script>
+
+<script type="text/javascript" src="scripts/reg.js"></script>
+<style>
+
+	.btn {
+  color: #fff;
+  background: transparent ;
+  font-weight: bold;
+  border: 1px solid #666;
+  
+}
+ 
+.btn:hover {
+  color: #FFF;
+  background: #666;
+}
 #hr_reg{
     width: 70%;
 }
-    
-td input[type=text]{
-    width: 100%;
-    color: black;
-}
- #text_inside{
-    text-align: left;
- }
-    
-#first_form{  
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  font-size: 23px;
-  top: 20%;
-}
 
-#table_reg{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-#first_form td{
-  font-size: 18px;
-  padding-left: 25px;  
-}
+#contact{
+margin-left:25%;
 
-#first_form input{
-  font-size: 18px; 
-}
-
-    #first_entry{
-        
     }
-
-#first_form td input[type=reset]{
-    width: 100px;
-background-color: Transparent;
-font-weight: bold;
-color: white;
-border-radius: 3px;
-cursor: pointer;
-padding: 10px 5px;
-margin: 10px 5px;
-margin-top: 25px;
-}
-
-#first_form td input[type=file]{
-  font-size: 15px;
+.row{
+margin-top:10px;
 }
 
 
-#first_form td select{
-  font-size: 15px; 
-}
 
 </style>

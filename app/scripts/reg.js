@@ -1,11 +1,12 @@
 function submit_fun() {
 	//alert(document.getElementsByName("join_date")[0].value);2014-10-01
-	if(document.getElementsByName("full_name")[0].value!="" && document.getElementsByName("college")[0].value!=""&&document.getElementsByName("email")[0].value!=""&&document.getElementsByName("phone_no")[0].value!="")
+	if(document.getElementsByName("full_name")[0].value!="" && document.getElementsByName("college")[0].value!=""&&document.getElementsByName("email")[0].value!=""&&document.getElementsByName("phone_no")[0].value!=""&&document.getElementsByName("event")[0].value!="")
 	{
 		 var name = document.getElementsByName("full_name")[0].value;
 		 var email = document.getElementsByName("email")[0].value;
 		 var college =document.getElementsByName("college")[0].value;
-         var phone_no = document.getElementsByName("phone_no")[0].value;
+                 var phone_no = document.getElementsByName("phone_no")[0].value;
+	       var event = document.getElementsByName("event")[0].value;
         
         if(!validateEmail(email)){
             alert("Email not valid!!!");
@@ -30,7 +31,7 @@ function submit_fun() {
 		if(xmlhttp)
 		{
 			
-			xmlhttp.open("GET",'reg.php?name='+name+'&email='+email+'&college='+college+'&phone_no='+phone_no);
+			xmlhttp.open("GET",'reg.php?name='+name+'&email='+email+'&college='+college+'&phone_no='+phone_no+'&event='+event);
 			xmlhttp.onreadystatechange=function()
 			{
 				if(xmlhttp.readyState==4 && xmlhttp.status==200)

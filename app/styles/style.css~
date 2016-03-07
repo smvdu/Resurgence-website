@@ -2,7 +2,7 @@
 
 body
 {
-    background: url("../images/head.png") no-repeat center center fixed #9966ff;
+    background:  url("../images/eader.jpg") no-repeat center center fixed #9966ff;
    
     color: #fff;
     font-family: 'Josefin Sans', sans-serif;
@@ -66,16 +66,8 @@ a, a:hover, a:active, a:visited
 
 .container
 {
-    
+    padding-top: 30px;
     z-index: 1;
-}
-
-.schedule{
-
-float:right;
-margin-top:20px;
-
-
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
